@@ -21,17 +21,17 @@ Pojemność plecaka:  50
   
 Pseudokod:
 
-void probuj(int k)
-{
-    if (k < n) probuj(k + 1);
-    if (można dołożyć przedmiot k do plecaka)
+    void probuj(int k)
     {
-        zapisz, że Alibaba zabiera przedmiot k;
-        if (wartość wynoszonej części skarbu jest wyższa)
-            zapamiętaj nowy zestaw i jego wartość;
         if (k < n) probuj(k + 1);
-        usuń zapis, że Alibaba zabiera przedmiot k;
-    }
-} 
+        if (można dołożyć przedmiot k do plecaka)
+        {
+           zapisz, że Alibaba zabiera przedmiot k;
+            if (wartość wynoszonej części skarbu jest wyższa)
+                zapamiętaj nowy zestaw i jego wartość;
+           if (k < n) probuj(k + 1);
+           usuń zapis, że Alibaba zabiera przedmiot k;
+       }
+    } 
 
 
