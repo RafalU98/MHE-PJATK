@@ -17,7 +17,7 @@ Przedmiot  Waga  Wartość
       2       42      68
       3       20      56
   ------------------------
-  Pojemność plecaka:  50
+Pojemność plecaka:  50
   
 Pseudokod:
 
