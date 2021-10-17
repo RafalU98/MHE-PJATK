@@ -11,13 +11,13 @@ W rozwiązaniu musimy dobrać taki podzbiór z zbiory elementów o podanej wadze
 
 Przykład :
 
-Przedmiot  Waga  Wartość
-  ------------------------
-      1       25      40
-      2       42      68
-      3       20      56
-  ------------------------
-Pojemność plecaka:  50
+    Przedmiot    Waga  Wartość
+    ------------------------
+          1       25      40
+          2       42      68
+          3       20      56
+    ------------------------
+    Pojemność plecaka:  50
   
 Pseudokod:
 
